@@ -32,10 +32,7 @@ body {
     min-height: 70vh;
     width: 300px;
     background-image: linear-gradient(-45deg, #4595FC, #C434E3);
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    padding: 30px 30px 10px 30px;
     border-radius: 20px;
 }
 .card-icon-image {
@@ -51,7 +48,45 @@ body {
     color: white;
     font-size: x-large;
 }
+.user-bio {
+    color: white;
+    font-weight: normal;
+    font-size: medium;
+}
 
 /* About Styles */
+.about-section {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    column-gap: 40px;
+    margin-top: 20%;
+    margin-right: 0;
+    margin-bottom: 20%;
+    margin-left: 0;
+}
+.about-item {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   color: white;
+}
 
 /* Item Styles */
+.item-value {
+    font-weight: 700;
+}
+
+/* Footer Styles */
+.card-footer {
+    width: 100%;
+}
+.card-button {
+    background: white;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #006af5;
+}
